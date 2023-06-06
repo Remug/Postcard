@@ -1,0 +1,62 @@
+body {
+	background: black;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+	align-items: flex-start;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 345px;
+	height: 50px;
+	margin: 0;
+	font-family: "Comic Sans MS", cursive;
+}
+
+.postcard-body {
+	display: flex;
+	align-items: first baseline;
+}
+
+.body-left p {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: "Comic Sans MS", cursive;
+	line-height: 1;
+	text-align: justify;
+}
+.body-left,
+.body-right {
+	padding: 10px;
+}
+
+input {
+	border: none;
+	border-bottom: solid 1px gainsboro;
+	color: gainsboro;
+	font-family: "Comic Sans MS", cursive;
+	width: 150px;
+}
+.postcard-footer {
+	text-align: center;
+	margin-top: 30px;
+}
+
+button {
+	background-color: darkgrey;
+	padding: 5px 10px;
+	font-family: "Comic Sans MS", cursive;
+}
